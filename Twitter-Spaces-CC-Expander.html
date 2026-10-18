@@ -1,116 +1,16 @@
-<!DOCTYPE html>
-<html>
-
+<!doctype html>
+<html lang="zh-Hant">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- Cache setting -->
-  <meta http-equiv="cache-control" content="no-cache">
-  <meta http-equiv="pragma" content="no-cache">
-  <meta http-equiv="expires" content="0">
-
-  <!-- Preview -->
-  <title>Twitter Spaces CC Expander</title>
-  <!-- Preview: Primary Meta Tags -->
-  <meta name="title" content="Arce0406 | DD Tools - Twitter Spaces CC Expander">
-  <meta name="description"
-    content="A website for VTuber audiences.">
-
-  <!-- Theme CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  <link rel="stylesheet" href="../css/main.css" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Twitter Spaces CC Expander 已停止提供</title>
+<meta name="robots" content="noindex">
+<style>body{font:16px/1.6 system-ui,"Noto Sans TC",sans-serif;max-width:36rem;margin:15vh auto;padding:0 1.5rem;color:#222}a{color:#2563eb}</style>
 </head>
-
-<body class="has-background-light">
-
-  <!-- Navbar -->
-  <nav class="navbar main-navbar has-border shadow-light is-fixed-top">
-    <div class="navbar-brand">
-      <a class="navbar-item title mb-0" href="#">
-        DD Tools
-      </a>
-    </div>
-  </nav>
-
-  <!-- section: Twitter Spaces CC Expander -->
-  <section class="section tab-panel is-active" id="section2" data-group="section">
-    <main class="box has-background-white">
-
-      <div class="content">
-        <p class="title is-4">Twitter Spaces CC Expander</p>
-        <p>Enlarge the caption area of Twitter spaces, only works on Twitter (browser page) for pc.</p>
-        <ol>
-          <li>Copy the script below.</li>
-          <li>Go to the Twitter page.</li>
-          <li>Open a Twitter spaces, and make sure there is already have subtitle shows.</li>
-          <p>(This script will not work if automatic subtitle translation (cc) is not enabled, or if the translated
-            subtitles are not yet available.)</p>
-          <li>Press "F12" to open the "Developer Tools".</li>
-          <li>Find the "console" in Developer Tools.</li>
-          <li>Paste the script and click "Enter" to execute it.</li>
-          <li>Now the subtitles will be enlarged and displayed on the side.</li>
-        </ol>
-      </div>
-
-      <div class="card">
-        <header class="card-header">
-          <p class="card-header-title">
-            Script
-          </p>
-        </header>
-        <div class="card-content">
-          <div class="content">
-            <textarea id="tb_cc_script" class="textarea" rows="13" disabled>
-
-            try {
-                  let listbox = document.querySelector('div[role="listbox"]');
-                  let cc_parent = listbox.parentElement.parentElement;
-                  cc_parent.style.position = "fixed";
-                  cc_parent.style.height = "100%";
-                  cc_parent.style.top = "0";
-                  cc_parent.style.left = "-100%";
-                  cc_parent.style.borderWidth = "1px";
-                  console.log('done.');
-            } catch (e) {
-                  console.log(e);
-            }
-            </textarea>
-          </div>
-        </div>
-        <footer class="card-footer">
-          <a id="btn_cc_script" class="card-footer-item">
-            <span class="icon is-small mr-3">
-              <i class="material-symbols-outlined">
-                content_copy
-              </i>
-            </span>
-            <span>Copy</span>
-          </a>
-        </footer>
-      </div>
-
-
-    </main>
-
-  </section>
-
-  <!-- notification -->
-  <div id="notifiy" class="notification-wrapper">
-    <div class="notification is-info">
-      <button class="delete"></button>
-      <p></p>
-    </div>
-  </div>
-
-  <!-- Scripts -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="../js/navbar.js"></script>
-  <script src="../js/message.js"></script>
-  <script src="../js/tab.js"></script>
-  <script type="module" src="../js/main2.js"></script>
+<body>
+<h1>Twitter Spaces CC Expander 已停止提供</h1>
+<p>這個工具已經停止提供。其他工具在 <a href="https://vsingerintro.com/tools">vsingerintro.com/tools</a>。</p>
+<p lang="ja">このツールの提供は終了しました。ほかのツールは <a href="https://vsingerintro.com/tools">vsingerintro.com/tools</a> にあります。</p>
+<p lang="en">This tool is no longer available. Other tools are at <a href="https://vsingerintro.com/tools">vsingerintro.com/tools</a>.</p>
 </body>
-
 </html>
